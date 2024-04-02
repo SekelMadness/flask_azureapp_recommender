@@ -1,0 +1,16 @@
+<!-- templates/result.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+</head>
+<body>
+    <h1>Top 5 Recommendations</h1>
+    <p>{{ recommendations }}</p>
+    <form method="post">
+        <input type="text" name="user_id" placeholder="Enter User ID">
+        <input type="submit" value="Get Recommendations Again">
+    </form>
+</body>
+</html>
